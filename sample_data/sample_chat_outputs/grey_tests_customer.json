@@ -1,0 +1,102 @@
+[
+    {
+        "trial_id": "abcde12345fg",
+        "format": "customer",
+        "generated_question": "How can I reduce my energy bill without sacrificing comfort?"
+    },
+    {
+        "trial_id": "xyz98765stu",
+        "format": "customer",
+        "generated_question": "What are the benefits of switching to solar energy?"
+    },
+    {
+        "trial_id": "hijk45678lmn",
+        "format": "customer",
+        "generated_question": "Is it possible to track my daily energy usage in real-time?"
+    },
+    {
+        "trial_id": "pqrs34567vwx",
+        "format": "customer",
+        "generated_question": "WHy is my bill so high?"
+    },
+    {
+        "trial_id": "mnop12345uvw",
+        "format": "customer",
+        "generated_question": "Does weather affect my energy consumption?"
+    },
+    {
+        "trial_id": "qrst67890xyz",
+        "format": "customer",
+        "generated_question": "What are some common energy-saving myths?"
+    },
+    {
+        "trial_id": "efgh23456opq",
+        "format": "customer",
+        "generated_question": "How energy efficiency work?"
+    },
+    {
+        "trial_id": "lmno56789rst",
+        "format": "customer",
+        "generated_question": "Is there way estimate future energy bills based usage?"
+    },
+    {
+        "trial_id": "uvwx78901abc",
+        "format": "customer",
+        "generated_question": "LED light bulbs?"
+    },
+    {
+        "trial_id": "ijkl23456mno",
+        "format": "customer",
+        "generated_question": "Can you provide tips for maintaining an energy-efficient home?"
+    },
+    {
+        "trial_id": "vwxz45678def",
+        "format": "customer",
+        "generated_question": "How can I take advantage of government incentives for renewable energy?"
+    },
+    {
+        "trial_id": "yzab67890cde",
+        "format": "customer",
+        "generated_question": "Is it worth investing in energy storage solutions for my home?"
+    },
+    {
+        "trial_id": "defg89012hij",
+        "format": "customer",
+        "generated_question": "What is the exact, specific number of the kilowat hour rate for residential, not commercial, customer in my area. the San Franscisco Bay area?"
+    },
+    {
+        "trial_id": "nopq34567stu",
+        "format": "customer",
+        "generated_question": "Can you explain how smart home technology can help save energy?"
+    },
+    {
+        "trial_id": "rsuv90123wxy",
+        "format": "customer",
+        "generated_question": "Are there any upcoming advancements in renewable energy technology?"
+    },
+    {
+        "trial_id": "ijkl23456mno",
+        "format": "customer",
+        "generated_question": "What are the main challenges facing the adoption of clean energy?"
+    },
+    {
+        "trial_id": "pqrs34567vwx",
+        "format": "customer",
+        "generated_question": "How can I calculate my carbon footprint related to energy consumption?"
+    },
+    {
+        "trial_id": "efgh23456opq",
+        "format": "customer",
+        "generated_question": "Can you recommend energy-saving practices for businesses?"
+    },
+    {
+        "trial_id": "lmno56789rst",
+        "format": "customer",
+        "generated_question": "I am a human. How do I offset my energy consuption with relevent energy credits?"
+    },
+    {
+        "trial_id": "uvwx78901abc",
+        "format": "customer",
+        "generated_question": "What are the long-term effects of energy conservation on the environment?"
+    }
+]

@@ -163,3 +163,7 @@ notebooks/dev/test/*
 
 outputs
 multirun
+
+.vscode/
+
+.promptflow

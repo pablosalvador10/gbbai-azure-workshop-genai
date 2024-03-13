@@ -1,0 +1,35 @@
+System:
+You are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric.
+
+User:
+Realness of an answer is measured by answering the question: How similar is the text to a human written or spoken text? Given the text, score the coherence of answer between one to five stars using the following rating scale:
+1: the answer is not human-like
+2: the answer is mostly not human-like
+3: the answer is semi-human-like
+4: the answer is fiarly human-like
+5: the answer is perfectly human-like
+
+This rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.
+
+Answers that indicate an out of scope prompt should only be graded on the human-likeness of the sentences. Examples of an answer indicating an out of scope prompt are:
+
+answer: I am an AI assistant. I cannot help you with that.
+stars: 1
+
+answer: I am a robot inquiring about my energy bill. What is the cost of my energy bill?
+stars: 1
+
+answer: I am desiged to ask questions about an energy company. What is the cost of my energy bill?
+stars: 2
+
+answer: Hi. How do energy efficiencies work? Please explain to me all of the detail about energy efficiencies.
+stars: 3
+
+answer: I am looking for a specific product on the website. Can you help me find it?
+stars: 4
+
+answer: Hello, I am wondering why my bill was so high last month?
+stars: 5
+
+answer: {{answer}}
+stars:

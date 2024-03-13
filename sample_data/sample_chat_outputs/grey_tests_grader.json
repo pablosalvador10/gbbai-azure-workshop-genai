@@ -1,0 +1,65 @@
+[
+    {
+        "trial_id": "acdkfjghtisy",
+        "format": "grader",
+        "generated_question": "I don't understand how to locate the billing information on my bill. What are the key terms I need to understand to know my account balance and get information about my bill's due date?",
+        "ground_truth_response": "You can locate your billing information on your monthly bill. The bill summary will give you important customer information such as the bill issued date, payments received, outstanding balance, current billing period charges, and any late charges applied if the bill is not paid by the due date (plus grace days). It will also display the previous balance, the previous payments received, the BGE outstanding balance, electric charges, gas charges, and other charges and credits, which may include Smart Energy Rewards, service contract billing information. The total amount due by the due date will be displayed, and the electric and gas details will give you a breakdown of the charges, annual usage profile, meter reading details, current billing period, rate schedule, KWH (usage), and therms (usage). If you have any additional inquiries, BGE.com or the BGE Mobile App can be used to view bills and make payments.",
+        "user_response": "You can locate your billing information on your monthly bill. The bill summary will give you important customer information such as the bill issued date, payments received, outstanding balance, current billing period charges, and any late charges applied if the bill is not paid by the due date. The total amount due by the due date will be displayed, and the electric and gas details will give you a breakdown of the charges, annual usage profile, meter reading details, current billing period, rate schedule, KWH, and therms.",
+        "evaluation": "<table>\n                    <tr>\n                        <th>Criteria</th>\n                        <th>Score</th>\n                        <th>Feedback</th>\n                    </tr>\n                    <tr>\n                        <td>Factual Accuracy</td>\n                        <td>4</td>\n                        <td>The response is mostly accurate, but it could be improved by providing more information on how to access the bill summary.</td>\n                    </tr>\n                    <tr>\n                        <td>Professionalism</td>\n                        <td>5</td>\n                        <td>The response is professional and helpful. Great job!</td>\n                    </tr>\n                </table>",
+        "evaluation_score": 4
+    },
+    {
+        "trial_id": "sdfkjsdkfjsd",
+        "format": "grader",
+        "generated_question": "How can I lower my energy bill during the winter months?",
+        "ground_truth_response": "To lower your energy bill during the winter months, you can take several steps. These include setting your thermostat to a lower temperature when you're not at home or when you're asleep, using a programmable thermostat to manage heating more efficiently, sealing any air leaks in your home, ensuring your home is properly insulated, using energy-efficient heating sources, and using curtains or blinds to keep heat in during the night.",
+        "user_response": "To lower your energy bill during the winter months, you can set your thermostat to a lower temperature when you're not at home or when you're asleep. You can also use curtains or blinds to keep heat in during the night.",
+        "evaluation": "<table>\n                    <tr>\n                        <th>Criteria</th>\n                        <th>Score</th>\n                        <th>Feedback</th>\n                    </tr>\n                    <tr>\n                        <td>Factual Accuracy</td>\n                        <td>3</td>\n                        <td>The response is partially accurate, but it could be improved by including more energy-saving tips such as sealing air leaks and using programmable thermostats.</td>\n                    </tr>\n                    <tr>\n                        <td>Clarity</td>\n                        <td>4</td>\n                        <td>The response is clear and easy to understand.</td>\n                    </tr>\n                </table>",
+        "evaluation_score": 3
+    },
+    {
+        "trial_id": "sdfjhweufhwe",
+        "format": "grader",
+        "generated_question": "What should I do if my electricity goes out?",
+        "ground_truth_response": "If your electricity goes out, you should first check if the outage is only in your home or if it's a widespread issue. You can do this by checking your circuit breaker or fuse box. If the outage is only in your home, you can try resetting the breaker or replacing the fuse. If the outage is widespread, you should contact your electricity provider to report the outage. They can provide you with information about the outage and an estimated time for restoration.",
+        "user_response": "If your electricity goes out, you should check if the outage is only in your home by checking your circuit breaker or fuse box. If the outage is widespread, you should contact your electricity provider.",
+        "evaluation": "<table>\n                    <tr>\n                        <th>Criteria</th>\n                        <th>Score</th>\n                        <th>Feedback</th>\n                    </tr>\n                    <tr>\n                        <td>Factual Accuracy</td>\n                        <td>4</td>\n                        <td>The response is mostly accurate, but it could be improved by providing more information on what to do if the outage is only in your home.</td>\n                    </tr>\n                    <tr>\n                        <td>Clarity</td>\n                        <td>5</td>\n                        <td>The response is clear and easy to understand.</td>\n                    </tr>\n                </table>",
+        "evaluation_score": 4
+    },
+    {
+        "trial_id": "sdfkjsdkfjsd",
+        "format": "grader",
+        "generated_question": "How can I lower my energy bill during the summer months?",
+        "ground_truth_response": "To lower your energy bill during the summer months, you can take several steps. These include setting your thermostat to a higher temperature when you're not at home or when you're asleep, using a programmable thermostat to manage cooling more efficiently, using fans to circulate air and reduce the need for air conditioning, sealing any air leaks in your home, ensuring your home is properly insulated, and using energy-efficient cooling sources.",
+        "user_response": "To lower your energy bill during the summer months, you can set your thermostat to a higher temperature when you're not at home or when you're asleep. You can also use fans to circulate air and reduce the need for air conditioning.",
+        "evaluation": "<table>\n                    <tr>\n                        <th>Criteria</th>\n                        <th>Score</th>\n                        <th>Feedback</th>\n                    </tr>\n                    <tr>\n                        <td>Factual Accuracy</td>\n                        <td>3</td>\n                        <td>The response is partially accurate, but it could be improved by including more energy-saving tips such as using a programmable thermostat and sealing air leaks.</td>\n                    </tr>\n                    <tr>\n                        <td>Clarity</td>\n                        <td>4</td>\n                        <td>The response is clear and easy to understand.</td>\n                    </tr>\n                </table>",
+        "evaluation_score": 3
+    },
+    {
+        "trial_id": "qweoiuwerwet",
+        "format": "grader",
+        "generated_question": "What should I do if my gas appliance is leaking?",
+        "ground_truth_response": "If you suspect that your gas appliance is leaking, you should immediately turn off the gas supply to the appliance. You should also open windows and doors to ventilate the area. Do not operate any electrical switches, appliances, or telephones in the area where you suspect the leak. Leave the area and contact a qualified technician to inspect and repair the appliance.",
+        "user_response": "If you suspect that your gas appliance is leaking, you should immediately turn off the gas supply to the appliance. You should also open windows and doors to ventilate the area.",
+        "evaluation": "<table>\n                    <tr>\n                        <th>Criteria</th>\n                        <th>Score</th>\n                        <th>Feedback</th>\n                    </tr>\n                    <tr>\n                        <td>Factual Accuracy</td>\n                        <td>4</td>\n                        <td>The response is mostly accurate, but it could be improved by emphasizing the importance of not operating electrical switches, appliances, or telephones in the area where the leak is suspected.</td>\n                    </tr>\n                    <tr>\n                        <td>Clarity</td>\n                        <td>5</td>\n                        <td>The response is clear and easy to understand.</td>\n                    </tr>\n                </table>",
+        "evaluation_score": 4
+    },
+    {
+        "trial_id": "sdjfhgsdfkjsd",
+        "format": "grader",
+        "generated_question": "How can I save energy when using my computer?",
+        "ground_truth_response": "To save energy when using your computer, you can take several steps. These include turning off your computer when you're not using it, using the sleep or hibernate mode instead of leaving it on, adjusting your computer's power settings to reduce energy consumption, using energy-efficient hardware, and minimizing the use of resource-intensive applications.",
+        "user_response": "To save energy when using your computer, you can turn off your computer when you're not using it.",
+        "evaluation": "<table>\n                    <tr>\n                        <th>Criteria</th>\n                        <th>Score</th>\n                        <th>Feedback</th>\n                    </tr>\n                    <tr>\n                        <td>Factual Accuracy</td>\n                        <td>3</td>\n                        <td>The response is partially accurate, but it could be improved by including more energy-saving tips such as using the sleep or hibernate mode and adjusting power settings.</td>\n                    </tr>\n                    <tr>\n                        <td>Clarity</td>\n                        <td>4</td>\n                        <td>The response is clear and easy to understand.</td>\n                    </tr>\n                </table>",
+        "evaluation_score": 3
+    },
+    {
+        "trial_id": "sdfkjsdkfjsd",
+        "format": "grader",
+        "generated_question": "What should I do if I smell gas in my home?",
+        "ground_truth_response": "If you smell gas in your home, you should immediately leave the area and avoid using any electrical switches, appliances, or telephones. Do not light any matches or candles, as these can ignite the gas. Once you are safely away from the area, contact your gas provider or emergency services to report the leak. Do not return to the area until it has been deemed safe by a qualified professional.",
+        "user_response": "If you smell gas in your home, you should immediately leave the area and avoid using any electrical switches, appliances, or telephones.",
+        "evaluation": "<table>\n                    <tr>\n                        <th>Criteria</th>\n                        <th>Score</th>\n                        <th>Feedback</th>\n                    </tr>\n                    <tr>\n                        <td>Factual Accuracy</td>\n                        <td>4</td>\n                        <td>The response is mostly accurate, but it could be improved by emphasizing the importance of not lighting any matches or candles.</td>\n                    </tr>\n                    <tr>\n                        <td>Clarity</td>\n                        <td>5</td>\n                        <td>The response is",
+        "evaluation_score": 4
+    }
+]
