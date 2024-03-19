@@ -1,0 +1,15 @@
+artifact_uri: file:///home/zacksoenen/Projects/gbbai-azure-workshop-genai/src/components/evaluation_framework/mlruns/0/2d051cf7dab0415cb4e75fd20c42e4d0/artifacts
+end_time: 1710796948549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d051cf7dab0415cb4e75fd20c42e4d0
+run_name: amusing-snipe-634
+run_uuid: 2d051cf7dab0415cb4e75fd20c42e4d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710796948515
+status: 3
+tags: []
+user_id: zacksoenen

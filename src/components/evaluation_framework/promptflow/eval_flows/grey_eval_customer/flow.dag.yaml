@@ -1,0 +1,44 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  generated_question:
+    type: string
+    default: How can I reduce my energy bill without sacrificing comfort?
+outputs:
+  output:
+    type: string
+    reference: ${concat_scores.output}
+nodes:
+- name: realness
+  type: llm
+  source:
+    type: code
+    path: realness.jinja2
+  inputs:
+    deployment_name: victor-gpt4
+    temperature: 0
+    max_tokens: 10
+    answer: ${inputs.generated_question}
+  connection: aoai-connection
+  api: chat
+- name: fluency
+  type: llm
+  source:
+    type: code
+    path: fluency.jinja2
+  inputs:
+    deployment_name: victor-gpt4
+    temperature: 0
+    max_tokens: 10
+    answer: ${inputs.generated_question}
+  connection: aoai-connection
+  api: chat
+- name: concat_scores
+  type: python
+  source:
+    type: code
+    path: concat_scores.py
+  inputs:
+    realness: ${realness.output}
+    fluency: ${fluency.output}

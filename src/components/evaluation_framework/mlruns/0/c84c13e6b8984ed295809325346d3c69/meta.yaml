@@ -1,0 +1,15 @@
+artifact_uri: file:///home/zacksoenen/Projects/gbbai-azure-workshop-genai/src/components/evaluation_framework/mlruns/0/c84c13e6b8984ed295809325346d3c69/artifacts
+end_time: 1710451910999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c84c13e6b8984ed295809325346d3c69
+run_name: nosy-hound-727
+run_uuid: c84c13e6b8984ed295809325346d3c69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710451910989
+status: 3
+tags: []
+user_id: zacksoenen

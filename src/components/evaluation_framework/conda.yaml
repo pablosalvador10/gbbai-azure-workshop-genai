@@ -1,0 +1,15 @@
+name: eval_component
+channels:
+  - conda-forge
+dependencies:
+  - python==3.8
+  - pip==24.0
+  - pip:
+    - promptflow[azure]
+    - promptflow-tools
+    - bs4
+    - numpy 
+    - azureml-mlflow==1.55.0
+    - pandas
+    - azureml-fsspec
+    - keyrings.alt

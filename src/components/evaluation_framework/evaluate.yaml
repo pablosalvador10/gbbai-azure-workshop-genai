@@ -1,0 +1,33 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+
+type: command
+
+name: evaluate_victor
+display_name: Evaluation Framework for Victor
+version: 18
+
+inputs:
+  grey_customer_data:
+    type: uri_file
+  grey_grader_data:
+    type: uri_file
+  red_test_data:
+    type: uri_file
+  api_key:
+    type: string
+  api_base:
+    type: string
+
+code: ./
+
+environment: 
+  image: mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04
+  conda_file: conda.yaml
+
+command: >-
+  python evaluate.py
+  --grey_customer_data ${{inputs.grey_customer_data}}
+  --grey_grader_data ${{inputs.grey_grader_data}}
+  --red_test_data ${{inputs.red_test_data}}
+  --api_key ${{inputs.api_key}}
+  --api_base ${{inputs.api_base}}
